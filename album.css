@@ -1,0 +1,41 @@
+  p {
+   letter-spacing: 3px;
+   }
+   
+   a {
+    color: purple;
+	text-decoration: overline;
+}
+
+a:hover {
+    text-decoration: underline;
+	color: purple;
+	font-weight: bold;
+}
+
+div.members {
+    width: 100%;
+	
+
+}
+ p.band {
+    text-align: left;
+    margin-left: 100px;
+ }
+table, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   text-align: center;
+}
+ table {
+    
+	width: 75%; 
+	margin-left: 100px;
+}
+
+ th {
+      bacground-color: #cccccc;
+	  border-bottom: 2px solid
+	  
+	  }
+   
