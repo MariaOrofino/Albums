@@ -1,7 +1,19 @@
+@font-face {
+    font-family: still time;
+    src: url(fonts/still_time.otf);
+} 
+
+div.main {
+    background: url("images/purplerain.jpg");
+    background-size: 600px 600px; 
+    height: 600px;
+    background-repeat: no-repeat;
+    margin: auto; 
+   }
+
   p {
    letter-spacing: 3px;
    }
-   
    a {
     color: purple;
 	text-decoration: overline;
@@ -13,19 +25,18 @@ a:hover {
 	font-weight: bold;
 }
 
+ 
 div.members {
     width: 100%;
-	
-
+    font-family: still time;
 }
- p.band {
-    text-align: left;
-    margin-left: 100px;
- }
+
+ 
 table, td {
    border: 1px solid black;
    border-collapse: collapse;
    text-align: center;
+   font-family: sans-serif;
 }
  table {
     
@@ -39,3 +50,4 @@ table, td {
 	  
 	  }
    
+     
