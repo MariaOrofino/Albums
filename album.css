@@ -1,13 +1,13 @@
 @font-face {
     font-family: still time;
     src: url(fonts/still_time.otf);
+   
     
 } 
 
 div.main {
-    background: url("images/purplerain.jpg");
     background-size: 600px 600px; 
-    height: 600px;
+    height: 610px;
     background-repeat: no-repeat;
     margin-left: 200px;
    }
@@ -42,6 +42,7 @@ table {
    width: 75%; 
    margin-left: 200px;
    background-color: #FAE3F6
+   
 }
 
  
@@ -55,5 +56,5 @@ table {
         font-style: italic;
         border: 1px solid black;
         }
-   
+ tr:nth-child(even){background-color: #F80CAA}
      
