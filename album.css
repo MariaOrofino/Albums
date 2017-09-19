@@ -1,6 +1,7 @@
 @font-face {
     font-family: still time;
     src: url(fonts/still_time.otf);
+    
 } 
 
 div.main {
@@ -8,7 +9,7 @@ div.main {
     background-size: 600px 600px; 
     height: 600px;
     background-repeat: no-repeat;
-    margin: auto; 
+    margin-left: 200px;
    }
 
   p {
@@ -22,7 +23,8 @@ div.main {
 a:hover {
     text-decoration: underline;
 	color: purple;
-	font-weight: bold;
+    font-weight: bold;
+    background-color: plum
 }
 
  
@@ -32,22 +34,26 @@ div.members {
 }
 
  
-table, td {
+table {
    border: 1px solid black;
    border-collapse: collapse;
    text-align: center;
    font-family: sans-serif;
-}
- table {
-    
-	width: 75%; 
-	margin-left: 100px;
+   width: 75%; 
+   margin-left: 200px;
+   background-color: #FAE3F6
 }
 
+ 
  th {
       bacground-color: #cccccc;
-	  border-bottom: 2px solid
+	  border-bottom: 2px solid;
 	  
-	  }
+      }
+      
+      td {
+        font-style: italic;
+        border: 1px solid black;
+        }
    
      
